@@ -1,0 +1,34 @@
+.card{
+     
+   text-align: center;
+
+    box-shadow: 3px 3px 5px black;
+   
+}
+
+.sticky{
+
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 50px;
+    
+}
+
+.cart-image{
+    width:100%;
+    height: auto;
+    animation: fadeIn 1s ease-in both;
+    opacity: 0;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}

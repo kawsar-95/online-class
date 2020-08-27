@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+.main {
+    background-color:lightgrey;
+    background-size: 600% 600%;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-web{
+    background-color:lightgrey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cart{
+    background-image: linear-gradient(180deg,lightsalmon,);
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.courseDesign{   
+   display:flex;float: left;flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.head{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
 }
 
-.App-link {
-  color: #61dafb;
+.head h5{
+    font-weight: 800;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headImage{
+    width: 10%;
 }
